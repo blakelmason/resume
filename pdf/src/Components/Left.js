@@ -66,7 +66,14 @@ const skills = [
 function Left() {
   return (
     <div style={{ paddingRight: 24 }}>
-      <div style={{ marginBottom: 106, padding: 4 }}>
+      <div
+        style={{
+          marginBottom: 106,
+          padding: 4,
+          display: 'flex',
+          justifyContent: 'center'
+        }}
+      >
         <img
           src={image}
           target="_blank"
@@ -75,7 +82,7 @@ function Left() {
           style={{
             borderRadius: '50%',
             border: '1px solid #e2e5e9',
-            width: '100%',
+            width: '85%',
             height: 'auto',
             boxShadow: '0 .5rem 1rem rgba(0,0,0,.15)'
           }}

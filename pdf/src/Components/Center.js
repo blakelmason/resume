@@ -8,7 +8,7 @@ function Center() {
       style={{
         display: 'grid',
         gridTemplateColumns: '28% 72%',
-        padding: 48,
+        padding: 36,
         height: '100%'
       }}
     >
