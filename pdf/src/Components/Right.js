@@ -50,6 +50,13 @@ const projects = [
     data: [
       "Built an exact copy of a single product page from IKEA's website from scratch. Followed the proxy/service design pattern to coordinate the display of multiple React components on a single page."
     ]
+  },
+  {
+    company: 'Hack Reactor',
+    position: 'System Design Capstone',
+    data: [
+      'Hosted a front end capstone project on AWS EC2 free tier instances and designed a system to maximize application load. Split the proxy, services, and database to individual EC2 instances and designed load balancers using NGINX.'
+    ]
   }
 ]
 
@@ -70,7 +77,11 @@ function Right() {
       </div>
       <Title left>Education</Title>
       {educations.map((data, i) => (
-        <Experience key={`education-${i}`} {...data} />
+        <Experience
+          key={`education-${i}`}
+          {...data}
+          nm={i === 2 ? true : false}
+        />
       ))}
     </div>
   )

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Experience({ company, position, date, data, description }) {
+function Experience({ company, position, date, data, description, nm }) {
   return (
-    <div style={{ display: 'flex', marginBottom: 36 }}>
+    <div style={{ display: 'flex', marginBottom: nm ? 0 : 26 }}>
       <div
         style={{
           fontSize: 22,
