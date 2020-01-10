@@ -43,9 +43,25 @@ const educations = [
   }
 ]
 
+const projects = [
+  {
+    company: 'Hack Reactor',
+    position: 'Front End Capstone',
+    data: [
+      "Built an exact copy of a single product page from IKEA's website from scratch. Followed the proxy/service design pattern to coordinate the display of multiple React components on a single page."
+    ]
+  }
+]
+
 function Right() {
   return (
     <div style={{ borderLeft: '2px solid #4c5867', paddingLeft: 24 }}>
+      <div style={{ marginBottom: 48 }}>
+        <Title left>Projects</Title>
+        {projects.map((data, i) => (
+          <Experience key={`project-${i}`} {...data} />
+        ))}
+      </div>
       <div style={{ marginBottom: 48 }}>
         <Title left>Experience</Title>
         {experiences.map((data, i) => (
