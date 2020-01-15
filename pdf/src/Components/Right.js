@@ -55,7 +55,7 @@ const projects = [
     company: 'Hack Reactor',
     position: 'System Design Capstone',
     data: [
-      'Hosted a front end capstone project on AWS EC2 free tier instances and designed a system to maximize application load. Split the proxy, services, and database to individual EC2 instances and designed load balancers using NGINX.'
+      'Hosted a front end capstone project on AWS EC2 free tier instances and designed a system to maximize application load. Split the proxy, services, and database to individual EC2 instances and designed a load balancer using NGINX.'
     ]
   }
 ]
