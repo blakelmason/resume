@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience({ company, position, date, data, description, nm }) {
   return (
-    <div style={{ display: 'flex', marginBottom: nm ? 0 : 26 }}>
+    <div style={{ display: 'flex', marginBottom: nm ? 0 : 36 }}>
       <div
         style={{
           fontSize: 22,
@@ -43,7 +43,6 @@ function Experience({ company, position, date, data, description, nm }) {
             fontWeight: 300,
             fontStyle: 'italic',
             color: '#6c757d',
-            marginBottom: 12,
             fontSize: 11
           }}
         >
@@ -52,7 +51,7 @@ function Experience({ company, position, date, data, description, nm }) {
         {data.map((item, i) => (
           <div
             style={{
-              marginTop: 12,
+              marginTop: 6,
               lineHeight: 1.4,
               textAlign: 'justify',
               textJustify: 'inter-word'
