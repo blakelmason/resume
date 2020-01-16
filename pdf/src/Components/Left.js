@@ -102,7 +102,6 @@ function Left() {
       </div>
       <div
         style={{
-          marginTop: 6,
           lineHeight: 1.4,
           textAlign: 'justify',
           textJustify: 'inter-word'
@@ -116,7 +115,7 @@ function Left() {
       <div>
         <Title>Contact</Title>
         {contact.map(({ icon, data, url }, i) => (
-          <div key={`contact-${i}`} style={{ marginTop: 4 }}>
+          <div key={`contact-${i}`} style={{ marginTop: 4, fontSize: 12 }}>
             {url ? (
               <a
                 target="_blank"

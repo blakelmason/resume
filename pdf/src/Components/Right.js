@@ -64,7 +64,7 @@ function Right() {
   return (
     <div
       style={{
-        borderLeft: '2px solid #4c5867',
+        borderLeft: '1px solid #4c5867',
         paddingLeft: 24,
         display: 'flex',
         flexDirection: 'column',
