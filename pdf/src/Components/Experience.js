@@ -9,7 +9,7 @@ function Experience({ company, position, date, data, description, nm }) {
           fontSize: 28,
           marginRight: 10,
           position: 'relative',
-          bottom: 6
+          bottom: 5
         }}
       >
         •
@@ -34,7 +34,7 @@ function Experience({ company, position, date, data, description, nm }) {
             fontSize: 18,
             color: '#4c5867',
             fontWeight: 700,
-            marginBottom: 6
+            marginBottom: 4
           }}
         >
           {position}
@@ -45,7 +45,7 @@ function Experience({ company, position, date, data, description, nm }) {
               fontWeight: 300,
               fontStyle: 'italic',
               color: '#6c757d',
-              fontSize: 11
+              fontSize: 12
             }}
           >
             {description}
@@ -54,7 +54,7 @@ function Experience({ company, position, date, data, description, nm }) {
         {data.map((item, i) => (
           <div
             style={{
-              marginTop: 6,
+              marginTop: 4,
               lineHeight: 1.4,
               textAlign: 'justify',
               textJustify: 'inter-word',
