@@ -20,6 +20,7 @@ import gmail from './icons/gmail.png'
 import location from './icons/location.png'
 import puppeteer from './icons/puppeteer.png'
 import sass from './icons/sass.png'
+import graphql from './icons/graphql.png'
 
 const contact = [
   { icon: cell, data: '714 - 878 - 5117' },
@@ -47,28 +48,39 @@ const skills = [
   { name: 'React', url: 'https://reactjs.org/', icon: react },
   { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
   { name: 'Node.js', url: 'https://nodejs.org/en/', icon: node },
-  { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
+  {
+    name: 'GraphQL',
+    url: 'https://graphql.org/',
+    icon: graphql
+  },
   { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
   { name: 'MySQL', url: 'https://www.mysql.com/', icon: mysql },
   { name: 'PostgreSQL', url: 'https://www.postgresql.org/', icon: pg },
   { name: 'JWT', url: 'https://jwt.io/', icon: jwt },
   { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
   { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
-  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
-  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
+  { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
   {
     name: 'Puppeteer',
     url: 'https://developers.google.com/web/tools/puppeteer',
     icon: puppeteer
-  }
+  },
+  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
+  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass }
 ]
 
 function Left() {
   return (
-    <div style={{ paddingRight: 24 }}>
+    <div
+      style={{
+        paddingRight: 24,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between'
+      }}
+    >
       <div
         style={{
-          marginBottom: 106,
           padding: 4,
           display: 'flex',
           justifyContent: 'center'
@@ -88,77 +100,44 @@ function Left() {
           }}
         />
       </div>
-      <Title>Contact</Title>
-      {contact.map(({ icon, data, url }, i) => (
-        <div key={`contact-${i}`} style={{ marginTop: 12 }}>
-          {url ? (
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                color: '#363f49',
-                padding: 6,
-                paddingRight: 8,
-                textDecoration: 'none'
-              }}
-              href={url}
-            >
-              <img
-                src={icon}
-                alt="icon"
-                style={{
-                  height: 'auto',
-                  width: 16,
-                  marginRight: 6
-                }}
-              />
-              {data}
-            </a>
-          ) : (
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                color: '#363f49',
-                padding: 6,
-                paddingRight: 8,
-                textDecoration: 'none'
-              }}
-            >
-              <img
-                src={icon}
-                alt="icon"
-                style={{
-                  height: 'auto',
-                  width: 16,
-                  marginRight: 6
-                }}
-              />
-              {data}
-            </div>
-          )}
-        </div>
-      ))}
-      <Title style={{ marginTop: 106 }}>Skills</Title>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {skills.map(({ name, url, icon }, i) => (
-          <div key={`skill-${i}`} style={{ padding: 2 }}>
-            <div style={{ display: 'inline-block' }}>
+      <div>
+        <Title>Contact</Title>
+        {contact.map(({ icon, data, url }, i) => (
+          <div key={`contact-${i}`} style={{ marginTop: 12 }}>
+            {url ? (
               <a
-                href={url}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
                   display: 'flex',
                   alignItems: 'center',
                   color: '#363f49',
-                  borderRadius: 4,
-                  padding: 4,
+                  padding: 6,
                   paddingRight: 8,
-                  textDecoration: 'none',
-                  border: '1px solid #4c5867'
+                  textDecoration: 'none'
+                }}
+                href={url}
+              >
+                <img
+                  src={icon}
+                  alt="icon"
+                  style={{
+                    height: 'auto',
+                    width: 16,
+                    marginRight: 6
+                  }}
+                />
+                {data}
+              </a>
+            ) : (
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  color: '#363f49',
+                  padding: 6,
+                  paddingRight: 8,
+                  textDecoration: 'none'
                 }}
               >
                 <img
@@ -167,15 +146,52 @@ function Left() {
                   style={{
                     height: 'auto',
                     width: 16,
-                    marginRight: 6,
-                    borderRadius: icon === jwt ? '50%' : ''
+                    marginRight: 6
                   }}
                 />
-                {name}
-              </a>
-            </div>
+                {data}
+              </div>
+            )}
           </div>
         ))}
+      </div>
+      <div>
+        <Title>Skills</Title>
+        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+          {skills.map(({ name, url, icon }, i) => (
+            <div key={`skill-${i}`} style={{ padding: 2 }}>
+              <div style={{ display: 'inline-block' }}>
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    color: '#363f49',
+                    borderRadius: 4,
+                    padding: 4,
+                    paddingRight: 8,
+                    textDecoration: 'none',
+                    border: '1px solid #4c5867'
+                  }}
+                >
+                  <img
+                    src={icon}
+                    alt="icon"
+                    style={{
+                      height: 'auto',
+                      width: 16,
+                      marginRight: 6,
+                      borderRadius: icon === jwt ? '50%' : ''
+                    }}
+                  />
+                  {name}
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

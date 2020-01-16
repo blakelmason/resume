@@ -33,7 +33,7 @@ const educations = [
       'Completed complex projects and received hands-on programming training through experiential learning opportunities.'
     ],
     description:
-      'A full stack web development program that teaches the key skills for front-end and back-end development'
+      'A full stack web development program that teaches the key skills for front end and back end development'
   },
   {
     company: 'Brigham Young University, Utah',
