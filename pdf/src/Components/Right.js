@@ -62,27 +62,45 @@ const projects = [
 
 function Right() {
   return (
-    <div style={{ borderLeft: '2px solid #4c5867', paddingLeft: 24 }}>
-      <div style={{ marginBottom: 48 }}>
+    <div
+      style={{
+        borderLeft: '2px solid #4c5867',
+        paddingLeft: 24,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between'
+      }}
+    >
+      <div>
         <Title left>Projects</Title>
         {projects.map((data, i) => (
-          <Experience key={`project-${i}`} {...data} />
+          <Experience
+            key={`project-${i}`}
+            {...data}
+            nm={i === projects.length - 1}
+          />
         ))}
       </div>
-      <div style={{ marginBottom: 48 }}>
+      <div>
         <Title left>Experience</Title>
         {experiences.map((data, i) => (
-          <Experience key={`experience-${i}`} {...data} />
+          <Experience
+            key={`experience-${i}`}
+            {...data}
+            nm={i === experiences.length - 1}
+          />
         ))}
       </div>
-      <Title left>Education</Title>
-      {educations.map((data, i) => (
-        <Experience
-          key={`education-${i}`}
-          {...data}
-          nm={i === 2 ? true : false}
-        />
-      ))}
+      <div>
+        <Title left>Education</Title>
+        {educations.map((data, i) => (
+          <Experience
+            key={`education-${i}`}
+            {...data}
+            nm={i === educations.length - 1}
+          />
+        ))}
+      </div>
     </div>
   )
 }

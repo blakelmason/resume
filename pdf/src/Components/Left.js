@@ -105,19 +105,18 @@ function Left() {
           marginTop: 6,
           lineHeight: 1.4,
           textAlign: 'justify',
-          textJustify: 'inter-word',
-          fontSize: 12
+          textJustify: 'inter-word'
         }}
       >
         <Title>Hello</Title>I love building applications and writing code. Web
         technologies are exciting and I enjoy using them and learning new ones.
-        My experience is with JavaScript frameworks, and I strive to put my
+        I have experience with JavaScript frameworks, and I strive to put my
         efforts toward ideas which can make the world a better place.
       </div>
       <div>
         <Title>Contact</Title>
         {contact.map(({ icon, data, url }, i) => (
-          <div key={`contact-${i}`} style={{ marginTop: 2 }}>
+          <div key={`contact-${i}`} style={{ marginTop: 4 }}>
             {url ? (
               <a
                 target="_blank"
@@ -173,7 +172,7 @@ function Left() {
         <Title>Skills</Title>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {skills.map(({ name, url, icon }, i) => (
-            <div key={`skill-${i}`} style={{ padding: 2 }}>
+            <div key={`skill-${i}`} style={{ padding: 2, fontSize: 12 }}>
               <div style={{ display: 'inline-block' }}>
                 <a
                   href={url}

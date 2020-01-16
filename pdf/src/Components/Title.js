@@ -12,7 +12,7 @@ function Title({ children, style, left }) {
         fontWeight: 700,
         textAlign: left ? 'left' : 'center',
         fontSize: 24,
-        marginBottom: 32,
+        marginBottom: 16,
         ...style
       }}
     >

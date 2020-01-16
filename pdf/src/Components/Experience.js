@@ -1,14 +1,15 @@
 import React from 'react'
 
 function Experience({ company, position, date, data, description, nm }) {
+  console.log(nm)
   return (
-    <div style={{ display: 'flex', marginBottom: nm ? 0 : 40 }}>
+    <div style={{ display: 'flex' }}>
       <div
         style={{
-          fontSize: 22,
-          marginRight: 12,
+          fontSize: 28,
+          marginRight: 10,
           position: 'relative',
-          bottom: 4
+          bottom: 6
         }}
       >
         •
@@ -22,7 +23,7 @@ function Experience({ company, position, date, data, description, nm }) {
             marginBottom: 4
           }}
         >
-          <div style={{ fontWeight: 500, fontSize: 16 }}>{company}</div>
+          <div style={{ fontWeight: 500, fontSize: 18 }}>{company}</div>
           <div style={{ color: '#6c757d', position: 'relative', top: 2 }}>
             {date}
           </div>
@@ -33,7 +34,7 @@ function Experience({ company, position, date, data, description, nm }) {
             fontSize: 18,
             color: '#4c5867',
             fontWeight: 700,
-            marginBottom: nm ? 0 : 4
+            marginBottom: 6
           }}
         >
           {position}
@@ -56,7 +57,8 @@ function Experience({ company, position, date, data, description, nm }) {
               marginTop: 6,
               lineHeight: 1.4,
               textAlign: 'justify',
-              textJustify: 'inter-word'
+              textJustify: 'inter-word',
+              marginBottom: nm ? 0 : 24
             }}
             key={`company-data-${i}`}
           >
