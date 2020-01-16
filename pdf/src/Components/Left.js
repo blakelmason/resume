@@ -100,6 +100,14 @@ function Left() {
           }}
         />
       </div>
+      <div style={{ textJustify: 'inter-word', textAlign: 'justify' }}>
+        Hello! I love working with code and building applications. When I took
+        my first coding course in college I quickly learned it was something I
+        wanted to pursue. Web technologies are exciting and I enjoy using them
+        and also learning new ones. My experience is with JavaScript frameworks,
+        and I hope to put my efforts toward ideas which can make the world a
+        better place.
+      </div>
       <div>
         <Title>Contact</Title>
         {contact.map(({ icon, data, url }, i) => (
