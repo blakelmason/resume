@@ -5,12 +5,19 @@ import Experience from './Experience'
 const experiences = [
   {
     company: 'US Wheel Corp',
-    position: 'junior software engineer',
+    position: 'software engineer',
     date: '2017 - 2019',
     data: [
-      'Set up a local Ubuntu server with PostgreSQL for capturing FedEx and UPS tracking information. Designed a new invoice template and automated an invoice emailing process using Node.js as previously all invoices were being physically mailed. Automated the order entry for U-Haul and Summit Racing orders using Node.js. Coordinated relationships for any outsourced IT solutions.'
+      'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Automated the order entry and invoice billing process. Helped troubleshoot any IT problems for the office and warehouse.'
     ],
     description: 'Steel wheel assembly and tire distribution'
+  },
+  {
+    company: 'Brigham Young University, Office of IT',
+    position: 'help desk',
+    data: [
+      "Worked to resolve any IT related issues for BYU customers and employees. Received technical training to help with the support and upkeep of BYU's network."
+    ]
   }
 ]
 
@@ -20,7 +27,7 @@ const educations = [
     position: 'Software Engineering Immersive',
     date: '2019',
     data: [
-      'Worked on mastering full stack JavaScript and Computer Science fundamentals while exploring new tech. Practiced pair programming and learned to code on a team using the most refined, up-to-date curriculum. Designed and built production grade web applications from scratch.'
+      'Worked on mastering full stack JavaScript and Computer Science fundamentals while exploring new tech using the most refined, up-to-date curriculum.'
     ],
     description:
       'An advanced coding bootcamp focused on building autonomous software engineers ready for any job in the tech industry'
@@ -48,7 +55,7 @@ const projects = [
     company: 'Hack Reactor',
     position: 'Front End Capstone',
     data: [
-      "Built an exact copy of a single product page from IKEA's website from scratch. Followed the proxy/service design pattern to coordinate the display of multiple React components on a single page."
+      "Built an exact copy of a single product page from IKEA's website from scratch using a JavaScript based framework. Followed the proxy/service design pattern to coordinate the display of multiple React components on a single page."
     ]
   },
   {

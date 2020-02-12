@@ -58,7 +58,7 @@ function Experience({ company, position, date, data, description, nm }) {
               lineHeight: 1.4,
               textAlign: 'justify',
               textJustify: 'inter-word',
-              marginBottom: nm ? 0 : 24
+              marginBottom: nm ? 0 : 12
             }}
             key={`company-data-${i}`}
           >

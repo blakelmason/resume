@@ -21,6 +21,8 @@ import location from './icons/location.png'
 import puppeteer from './icons/puppeteer.png'
 import sass from './icons/sass.png'
 import graphql from './icons/graphql.png'
+import js from './icons/js.png'
+import mui from './icons/mui.png'
 
 const contact = [
   { icon: cell, data: '714 - 878 - 5117' },
@@ -45,28 +47,34 @@ const contact = [
 ]
 
 const skills = [
+  {
+    name: 'JavaScript',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    icon: js
+  },
   { name: 'React', url: 'https://reactjs.org/', icon: react },
   { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
   { name: 'Node.js', url: 'https://nodejs.org/en/', icon: node },
-  {
-    name: 'GraphQL',
-    url: 'https://graphql.org/',
-    icon: graphql
-  },
   { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
   { name: 'MySQL', url: 'https://www.mysql.com/', icon: mysql },
   { name: 'PostgreSQL', url: 'https://www.postgresql.org/', icon: pg },
   { name: 'JWT', url: 'https://jwt.io/', icon: jwt },
-  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
-  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
   { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
   {
     name: 'Puppeteer',
     url: 'https://developers.google.com/web/tools/puppeteer',
     icon: puppeteer
   },
+  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
   { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
-  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass }
+  { name: 'Material-UI', url: 'https://material-ui.com/', icon: mui },
+  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
+  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
+  {
+    name: 'GraphQL',
+    url: 'https://graphql.org/',
+    icon: graphql
+  }
 ]
 
 function Left() {
