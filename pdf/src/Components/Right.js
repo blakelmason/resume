@@ -14,6 +14,7 @@ const experiences = [
   },
   {
     company: 'Brigham Young University, Office of IT',
+    date: '2016',
     position: 'help desk',
     data: [
       "Worked to resolve any IT related issues for BYU customers and employees. Received technical training to help with the support and upkeep of BYU's network."
