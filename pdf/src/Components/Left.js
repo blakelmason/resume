@@ -115,7 +115,7 @@ function Left() {
           textJustify: 'inter-word'
         }}
       >
-        <Title>Hello</Title>I love building applications and writing code. Web
+        <Title>Hello</Title>I love building applications and writing code! Web
         technologies are exciting and I enjoy using them and learning new ones.
         I have experience with JavaScript frameworks, and I strive to put my
         efforts toward ideas which can make the world a better place.
