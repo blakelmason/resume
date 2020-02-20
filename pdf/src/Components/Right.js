@@ -11,14 +11,6 @@ const experiences = [
       'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Automated the order entry and invoice billing process. Helped troubleshoot any IT problems for the office and warehouse.'
     ],
     description: 'Steel wheel assembly and tire distribution'
-  },
-  {
-    company: 'Brigham Young University, Office of IT',
-    date: '2016',
-    position: 'help desk',
-    data: [
-      "Worked to resolve any IT related issues for BYU customers and employees. Received technical training to help with the support and upkeep of BYU's network."
-    ]
   }
 ]
 
