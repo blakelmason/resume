@@ -79,7 +79,7 @@ function Left() {
         justifyContent: 'space-between'
       }}
     >
-      <div
+      {/* <div
         style={{
           padding: 4,
           display: 'flex',
@@ -99,7 +99,7 @@ function Left() {
             boxShadow: '0 .5rem 1rem rgba(0,0,0,.15)'
           }}
         />
-      </div>
+      </div> */}
       <div
         style={{
           lineHeight: 1.4,

@@ -2,9 +2,9 @@ import React from 'react'
 import Title from './Title'
 
 const data = {
-  site: 'indeed.com',
-  position: 'Web Developer',
-  company: 'Purple'
+  site: 'procore.com',
+  position: 'Demo Engineer',
+  company: 'Procore'
 }
 
 function Right() {
