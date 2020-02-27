@@ -5,13 +5,22 @@ import Experience from './Experience'
 const experiences = [
   {
     company: 'US Wheel Corp',
-    position: 'software engineer',
+    position: 'business and technology specialist',
     date: '2017 - 2019',
     data: [
-      'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Automated the order entry and invoice billing process. Helped troubleshoot any IT problems for the office and warehouse.'
+      'Liaison between business operations and technology. Wrote code using Excel VBA to automate and improve business activities such as invoicing, shipping, data analysis, and order entry. Built a custom application with a SQL server for managing freight and drop ship orders. Performed IT troubleshooting and managed relationships for any outsourced technology solutions.'
     ],
     description: 'Steel wheel assembly and tire distribution'
   }
+  // {
+  //   company: 'US Wheel Corp',
+  //   position: 'software engineer',
+  //   date: '2017 - 2019',
+  //   data: [
+  //     'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Automated the order entry and invoice billing process. Helped troubleshoot any IT problems for the office and warehouse.'
+  //   ],
+  //   description: 'Steel wheel assembly and tire distribution'
+  // }
 ]
 
 const educations = [

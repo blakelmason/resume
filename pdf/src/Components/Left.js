@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../image.jpg'
+// import image from '../image.jpg'
 import Title from './Title'
 import react from './icons/react.png'
 import node from './icons/node.png'
@@ -23,6 +23,14 @@ import sass from './icons/sass.png'
 import graphql from './icons/graphql.png'
 import js from './icons/js.png'
 import mui from './icons/mui.png'
+import html from './icons/html.png'
+import css from './icons/css.png'
+import excel from './icons/excel.png'
+import vba from './icons/vba.png'
+import sql from './icons/sql.png'
+import mongoose from './icons/mongoose.png'
+import sequelize from './icons/sequelize.png'
+import moment from './icons/moment.png'
 
 const contact = [
   { icon: cell, data: '714 - 878 - 5117' },
@@ -48,32 +56,61 @@ const contact = [
 
 const skills = [
   {
+    name: 'HTML',
+    url: 'https://www.w3schools.com/html/',
+    icon: html
+  },
+  {
+    name: 'CSS',
+    url: 'https://www.w3schools.com/css/',
+    icon: css
+  },
+  {
     name: 'JavaScript',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     icon: js
   },
   { name: 'React', url: 'https://reactjs.org/', icon: react },
   { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
-  { name: 'Node.js', url: 'https://nodejs.org/en/', icon: node },
+  { name: 'Node', url: 'https://nodejs.org/en/', icon: node },
   { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
+  { name: 'SQL', url: 'https://www.w3schools.com/sql/', icon: sql },
+  { name: 'Mongoose', url: 'https://mongoosejs.com/', icon: mongoose },
+  { name: 'Sequelize', url: 'https://sequelize.org/', icon: sequelize },
   { name: 'MySQL', url: 'https://www.mysql.com/', icon: mysql },
   { name: 'PostgreSQL', url: 'https://www.postgresql.org/', icon: pg },
+  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
+  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
+  { name: 'Material-UI', url: 'https://material-ui.com/', icon: mui },
+  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
+  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
   { name: 'JWT', url: 'https://jwt.io/', icon: jwt },
   { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
+  {
+    name: 'GraphQL',
+    url: 'https://graphql.org/',
+    icon: graphql
+  },
   {
     name: 'Puppeteer',
     url: 'https://developers.google.com/web/tools/puppeteer',
     icon: puppeteer
   },
-  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
-  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
-  { name: 'Material-UI', url: 'https://material-ui.com/', icon: mui },
-  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
-  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
   {
-    name: 'GraphQL',
-    url: 'https://graphql.org/',
-    icon: graphql
+    name: 'Moment',
+    url: 'https://momentjs.com/',
+    icon: moment
+  },
+  {
+    name: 'Microsoft Excel',
+    url: 'https://products.office.com/en-us/excel',
+    icon: excel
+  },
+  {
+    name: 'VBA',
+    url:
+      'https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office',
+    icon: vba
   }
 ]
 
@@ -115,10 +152,22 @@ function Left() {
           textJustify: 'inter-word'
         }}
       >
-        <Title>Hello</Title>I love building applications and writing code! Web
-        technologies are exciting and I enjoy using them and learning new ones.
-        I have experience with JavaScript frameworks, and I strive to put my
-        efforts toward ideas which can make the world a better place.
+        <Title>Hello</Title>
+        {/* <div>
+          I love building applications and writing code! Web technologies are
+          exciting and I enjoy using them and learning new ones. I have
+          experience with JavaScript frameworks, and I strive to put my efforts
+          toward ideas which can make the world a better place.
+        </div> */}
+        <div style={{ fontSize: 13 }}>
+          I help provide solutions to business operations using technology.
+          Whatever the need, I strive to find the optimal solution in a world
+          where modern technology is constantly changing and moving forward.
+          Whether automating routine tasks, optimizing reporting, or even
+          helping a coworker with their temperamental printer, I love helping
+          people navigate the complex environment of technology in which we
+          live.
+        </div>
       </div>
       <div>
         <Title>Contact</Title>
@@ -179,7 +228,7 @@ function Left() {
         <Title>Skills</Title>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {skills.map(({ name, url, icon }, i) => (
-            <div key={`skill-${i}`} style={{ padding: 2, fontSize: 12 }}>
+            <div key={`skill-${i}`} style={{ padding: 2, fontSize: 11 }}>
               <div style={{ display: 'inline-block' }}>
                 <a
                   href={url}
@@ -203,7 +252,9 @@ function Left() {
                       height: 'auto',
                       width: 16,
                       marginRight: 6,
-                      borderRadius: icon === jwt ? '50%' : ''
+                      borderRadius:
+                        icon === jwt || name === 'MongoDB' ? '50%' : '',
+                      border: name === 'MongoDB' ? '1px solid #5555' : ''
                     }}
                   />
                   {name}

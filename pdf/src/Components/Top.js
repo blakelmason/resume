@@ -36,7 +36,10 @@ function Top() {
             flexGrow: 1
           }}
         >
-          <div
+          <div style={{ textAlign: 'center', marginTop: 8 }}>
+            Business and Technology Specialist
+          </div>
+          {/* <div
             style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(2, 1fr)',
@@ -45,7 +48,7 @@ function Top() {
           >
             <div style={{ textAlign: 'right', paddingRight: 3 }}>Software</div>
             <div style={{ textAlign: 'left', paddingLeft: 3 }}>Engineer</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
