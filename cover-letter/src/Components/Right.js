@@ -3,8 +3,10 @@ import Title from './Title'
 
 const data = {
   site: 'procore.com',
-  position: 'Business Intelligence Analyst',
-  company: 'Casa Pacifica'
+  position: 'Demo Engineer',
+  company: 'Procore',
+  industry: 'construction management and tech',
+  link: 'https://www.procore.com/jobs/openings/2102210'
 }
 
 function Right() {
@@ -21,13 +23,27 @@ function Right() {
     >
       <Title left>Cover Letter</Title>
       <div style={{}}>Dear Hiring Manager,</div>
-      {/* <P>
+      <P>
         This letter is to express my interest in your posting on {data.site} for
-        the {data.position} position, and my confidence in my ability to be a
-        productive contributor to your team. I believe that {data.company} works
-        toward a valuable purpose, and it would be a privilege to work toward
-        such a goal. I became a software engineer because I love code, and my
-        skills will clearly succeed as a {data.position} for {data.company}.
+        the{' '}
+        <strong>
+          <a
+            href={data.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: '#363f49',
+              textDecoration: 'none'
+            }}
+          >
+            {data.position}
+          </a>
+        </strong>{' '}
+        position, and my confidence in my ability to be a productive contributor
+        to your team. I believe that {data.company} works toward a valuable
+        purpose in the {data.industry} industry, and it would be a privilege to
+        add my efforts to the Procore team. I became a software engineer because
+        I love code, and I believe my skills will succeed as a {data.position}.
       </P>
       <P>
         Most recently I worked on three software projects while attending Hack
@@ -41,13 +57,13 @@ function Right() {
         member while also providing my own technical contributions to the
         project.
       </P>
-      <P>
+      {/* <P>
         My skills as a {data.position} will be valuable to {data.company}, and I
         would like to further discuss my qualifications. Please feel free to
         contact me by email at blakelmason@gmail.com or by phone at (714)
         878-5117.
       </P> */}
-      <P>
+      {/* <P>
         I am interested in obtaining full-time employment as a {data.position}{' '}
         at {data.company}. I believe my dependable, personable, and professional
         nature makes me a competitive candidate for this position. My (a)
@@ -74,7 +90,7 @@ function Right() {
         business problems. My degree in business from BYU coupled with my
         certificates from UCI and Hack Reactor give me a powerful toolset that I
         feel would help me thrive as a {data.position}.
-      </P>
+      </P> */}
       <P>
         I am confident my skills as a {data.position} will be valuable to{' '}
         {data.company}, and I would like to further discuss my qualifications.

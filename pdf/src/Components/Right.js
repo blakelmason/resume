@@ -3,24 +3,24 @@ import Title from './Title'
 import Experience from './Experience'
 
 const experiences = [
-  {
-    company: 'US Wheel Corp',
-    position: 'business and technology specialist',
-    date: '2017 - 2019',
-    data: [
-      'Liaison between business operations and technology. Wrote code using Excel VBA to automate and improve business activities such as invoicing, shipping, data analysis, and order entry. Built a custom application with a SQL server for managing freight and drop ship orders. Performed IT troubleshooting and managed relationships for any outsourced technology solutions.'
-    ],
-    description: 'Steel wheel assembly and tire distribution'
-  }
   // {
   //   company: 'US Wheel Corp',
-  //   position: 'software engineer',
+  //   position: 'business and technology specialist',
   //   date: '2017 - 2019',
   //   data: [
-  //     'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Automated the order entry and invoice billing process. Helped troubleshoot any IT problems for the office and warehouse.'
+  //     'Liaison between business operations and technology. Wrote code using Excel VBA to automate and improve business activities such as invoicing, shipping, data analysis, and order entry. Built a custom application with a SQL server for managing freight and drop ship orders. Performed IT troubleshooting and managed relationships for any outsourced technology solutions.'
   //   ],
   //   description: 'Steel wheel assembly and tire distribution'
   // }
+  {
+    company: 'US Wheel Corp',
+    position: 'software engineer',
+    date: '2017 - 2019',
+    data: [
+      'Built a full stack web application to manage freight and drop ship orders using JavaScript tools and frameworks. Wrote code to automate business operations such as order entry, invoicing, reporting, and generating work order bill of materials. Helped troubleshoot any IT problems for the office and warehouse.'
+    ],
+    description: 'Steel wheel assembly and tire distribution'
+  }
 ]
 
 const educations = [
@@ -42,7 +42,7 @@ const educations = [
       'Completed complex projects and received hands-on programming training through experiential learning opportunities.'
     ],
     description:
-      'A full stack web development program that teaches the key skills for front end and back end development'
+      'A web development program that teaches the key skills for full stack development'
   },
   {
     company: 'Brigham Young University, Utah',
@@ -57,7 +57,7 @@ const projects = [
     company: 'Hack Reactor',
     position: 'Front End Capstone',
     data: [
-      "Built an exact copy of a single product page from IKEA's website from scratch using a JavaScript based framework. Followed the proxy/service design pattern to coordinate the display of multiple React components on a single page."
+      "Built an exact copy of a single product page from IKEA's website from scratch using a JavaScript based framework. Used a microservice architecture to coordinate the display of multiple React components on a single page."
     ]
   },
   {
@@ -81,16 +81,6 @@ function Right() {
       }}
     >
       <div>
-        <Title left>Projects</Title>
-        {projects.map((data, i) => (
-          <Experience
-            key={`project-${i}`}
-            {...data}
-            nm={i === projects.length - 1}
-          />
-        ))}
-      </div>
-      <div>
         <Title left>Experience</Title>
         {experiences.map((data, i) => (
           <Experience
@@ -107,6 +97,16 @@ function Right() {
             key={`education-${i}`}
             {...data}
             nm={i === educations.length - 1}
+          />
+        ))}
+      </div>
+      <div>
+        <Title left>Projects</Title>
+        {projects.map((data, i) => (
+          <Experience
+            key={`project-${i}`}
+            {...data}
+            nm={i === projects.length - 1}
           />
         ))}
       </div>

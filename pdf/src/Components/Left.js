@@ -31,6 +31,8 @@ import sql from './icons/sql.png'
 import mongoose from './icons/mongoose.png'
 import sequelize from './icons/sequelize.png'
 import moment from './icons/moment.png'
+import jquery from './icons/jquery.png'
+import cheerio from './icons/cheerio.png'
 
 const contact = [
   { icon: cell, data: '714 - 878 - 5117' },
@@ -90,6 +92,16 @@ const skills = [
     name: 'GraphQL',
     url: 'https://graphql.org/',
     icon: graphql
+  },
+  {
+    name: 'jQuery',
+    url: 'https://jquery.com/',
+    icon: jquery
+  },
+  {
+    name: 'Cheerio',
+    url: 'https://cheerio.js.org/',
+    icon: cheerio
   },
   {
     name: 'Puppeteer',
@@ -153,13 +165,13 @@ function Left() {
         }}
       >
         <Title>Hello</Title>
-        {/* <div>
+        <div>
           I love building applications and writing code! Web technologies are
           exciting and I enjoy using them and learning new ones. I have
           experience with JavaScript frameworks, and I strive to put my efforts
           toward ideas which can make the world a better place.
-        </div> */}
-        <div style={{ fontSize: 13 }}>
+        </div>
+        {/* <div style={{ fontSize: 13 }}>
           I help provide solutions to business operations using technology.
           Whatever the need, I strive to find the optimal solution in a world
           where modern technology is constantly changing and moving forward.
@@ -167,7 +179,7 @@ function Left() {
           helping a coworker with their temperamental printer, I love helping
           people navigate the complex environment of technology in which we
           live.
-        </div>
+        </div> */}
       </div>
       <div>
         <Title>Contact</Title>
@@ -253,7 +265,9 @@ function Left() {
                       width: 16,
                       marginRight: 6,
                       borderRadius:
-                        icon === jwt || name === 'MongoDB' ? '50%' : '',
+                        icon === jwt || name === 'MongoDB' || name === 'Cheerio'
+                          ? '50%'
+                          : '',
                       border: name === 'MongoDB' ? '1px solid #5555' : ''
                     }}
                   />
