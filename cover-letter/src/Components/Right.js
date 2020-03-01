@@ -5,7 +5,7 @@ const data = {
   site: 'procore.com',
   position: 'Demo Engineer',
   company: 'Procore',
-  industry: 'construction management and tech',
+  industry: 'construction management and tech industries',
   link: 'https://www.procore.com/jobs/openings/2102210'
 }
 
@@ -24,8 +24,7 @@ function Right() {
       <Title left>Cover Letter</Title>
       <div style={{}}>Dear Hiring Manager,</div>
       <P>
-        This letter is to express my interest in your posting on {data.site} for
-        the{' '}
+        I am writing to express my interest in the{' '}
         <strong>
           <a
             href={data.link}
@@ -39,11 +38,11 @@ function Right() {
             {data.position}
           </a>
         </strong>{' '}
-        position, and my confidence in my ability to be a productive contributor
-        to your team. I believe that {data.company} works toward a valuable
-        purpose in the {data.industry} industry, and it would be a privilege to
-        add my efforts to the Procore team. I became a software engineer because
-        I love code, and I believe my skills will succeed as a {data.position}.
+        position at {data.company}. I believe that {data.company} works toward a
+        valuable purpose in the {data.industry}, and I would consider it a
+        privilege to be a part of the Procore team. I became a software engineer
+        because I love code, and I believe my skills will help me succeed as a{' '}
+        {data.position}.
       </P>
       <P>
         Most recently I worked on three software projects while attending Hack

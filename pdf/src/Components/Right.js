@@ -27,7 +27,7 @@ const educations = [
   {
     company: 'Hack Reactor',
     position: 'Software Engineering Immersive',
-    date: '2019',
+    date: '2020',
     data: [
       'Worked on mastering full stack JavaScript and Computer Science fundamentals while exploring new tech using the most refined, up-to-date curriculum.'
     ],

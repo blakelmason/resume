@@ -166,10 +166,10 @@ function Left() {
       >
         <Title>Hello</Title>
         <div>
-          I love building applications and writing code! Web technologies are
-          exciting and I enjoy using them and learning new ones. I have
-          experience with JavaScript frameworks, and I strive to put my efforts
-          toward ideas which can make the world a better place.
+          I love building applications and writing code! I find web technologies
+          exciting and enjoy learning new ones. My experience is with JavaScript
+          frameworks, and I strive to put my efforts toward ideas that can make
+          the world a better place.
         </div>
         {/* <div style={{ fontSize: 13 }}>
           I help provide solutions to business operations using technology.
