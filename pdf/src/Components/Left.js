@@ -25,8 +25,8 @@ import js from './icons/js.png'
 import mui from './icons/mui.png'
 import html from './icons/html.png'
 import css from './icons/css.png'
-import excel from './icons/excel.png'
-import vba from './icons/vba.png'
+import npm from './icons/npm.png'
+import git from './icons/git.png'
 import sql from './icons/sql.png'
 import mongoose from './icons/mongoose.png'
 import sequelize from './icons/sequelize.png'
@@ -72,37 +72,35 @@ const skills = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     icon: js
   },
-  { name: 'React', url: 'https://reactjs.org/', icon: react },
-  { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
-  { name: 'Node', url: 'https://nodejs.org/en/', icon: node },
-  { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
-  { name: 'SQL', url: 'https://www.w3schools.com/sql/', icon: sql },
-  { name: 'Mongoose', url: 'https://mongoosejs.com/', icon: mongoose },
-  { name: 'Sequelize', url: 'https://sequelize.org/', icon: sequelize },
-  { name: 'MySQL', url: 'https://www.mysql.com/', icon: mysql },
-  { name: 'PostgreSQL', url: 'https://www.postgresql.org/', icon: pg },
-  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
-  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
-  { name: 'Material-UI', url: 'https://material-ui.com/', icon: mui },
-  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
-  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
-  { name: 'JWT', url: 'https://jwt.io/', icon: jwt },
-  { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
-  {
-    name: 'GraphQL',
-    url: 'https://graphql.org/',
-    icon: graphql
-  },
   {
     name: 'jQuery',
     url: 'https://jquery.com/',
     icon: jquery
   },
+  { name: 'React', url: 'https://reactjs.org/', icon: react },
+  { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
+  { name: 'Node', url: 'https://nodejs.org/en/', icon: node },
   {
-    name: 'Cheerio',
-    url: 'https://cheerio.js.org/',
-    icon: cheerio
+    name: 'npm',
+    url: 'https://www.npmjs.com/',
+    icon: npm
   },
+  {
+    name: 'Git',
+    url: 'https://git-scm.com/',
+    icon: git
+  },
+  { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
+  { name: 'Mongoose', url: 'https://mongoosejs.com/', icon: mongoose },
+  { name: 'SQL', url: 'https://www.w3schools.com/sql/', icon: sql },
+  { name: 'Sequelize', url: 'https://sequelize.org/', icon: sequelize },
+  { name: 'MySQL', url: 'https://www.mysql.com/', icon: mysql },
+  { name: 'PostgreSQL', url: 'https://www.postgresql.org/', icon: pg },
+  { name: 'Sass', url: 'https://sass-lang.com/', icon: sass },
+  { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: bootstrap },
+  { name: 'AWS', url: 'https://aws.amazon.com/', icon: aws },
+  { name: 'Material-UI', url: 'https://material-ui.com/', icon: mui },
+  { name: 'JWT', url: 'https://jwt.io/', icon: jwt },
   {
     name: 'Puppeteer',
     url: 'https://developers.google.com/web/tools/puppeteer',
@@ -113,16 +111,17 @@ const skills = [
     url: 'https://momentjs.com/',
     icon: moment
   },
+  { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
+  { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
   {
-    name: 'Microsoft Excel',
-    url: 'https://products.office.com/en-us/excel',
-    icon: excel
+    name: 'GraphQL',
+    url: 'https://graphql.org/',
+    icon: graphql
   },
   {
-    name: 'VBA',
-    url:
-      'https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office',
-    icon: vba
+    name: 'Cheerio',
+    url: 'https://cheerio.js.org/',
+    icon: cheerio
   }
 ]
 
