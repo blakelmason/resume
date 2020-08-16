@@ -38,44 +38,43 @@ const contact = [
   { icon: cell, data: '714 - 878 - 5117' },
   {
     icon: gmail,
-    data: 'blakelmason@gmail.com'
+    data: 'blakelmason@gmail.com',
   },
   {
     icon: location,
-    data: 'Port Hueneme, CA 93041',
-    url:
-      'https://www.google.com/maps/place/Port+Hueneme,+CA/@34.1593617,-119.2212506,14z/data=!3m1!4b1!4m5!3m4!1s0x80e84b007fdaca29:0x48333ac255857a54!8m2!3d34.1477829!4d-119.1951074'
+    data: 'South Jordan, UT 84095',
+    url: 'https://www.google.com/maps?q=84095&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjOn4K5357rAhV_CjQIHZtbBNkQ_AUoAXoECBQQAw',
   },
 
   {
     icon: linkedin,
     data: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/blakelmason/'
+    url: 'https://www.linkedin.com/in/blakelmason/',
   },
   { icon: website, data: 'Website', url: 'http://www.blakelmason.com/' },
-  { icon: github, data: 'Github', url: 'https://github.com/blakelmason' }
+  { icon: github, data: 'Github', url: 'https://github.com/blakelmason' },
 ]
 
 const skills = [
   {
     name: 'HTML',
     url: 'https://www.w3schools.com/html/',
-    icon: html
+    icon: html,
   },
   {
     name: 'CSS',
     url: 'https://www.w3schools.com/css/',
-    icon: css
+    icon: css,
   },
   {
     name: 'JavaScript',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    icon: js
+    icon: js,
   },
   {
     name: 'jQuery',
     url: 'https://jquery.com/',
-    icon: jquery
+    icon: jquery,
   },
   { name: 'React', url: 'https://reactjs.org/', icon: react },
   { name: 'Redux', url: 'https://redux.js.org/', icon: redux },
@@ -83,12 +82,12 @@ const skills = [
   {
     name: 'npm',
     url: 'https://www.npmjs.com/',
-    icon: npm
+    icon: npm,
   },
   {
     name: 'Git',
     url: 'https://git-scm.com/',
-    icon: git
+    icon: git,
   },
   { name: 'MongoDB', url: 'https://www.mongodb.com/', icon: mongo },
   { name: 'Mongoose', url: 'https://mongoosejs.com/', icon: mongoose },
@@ -104,25 +103,25 @@ const skills = [
   {
     name: 'Puppeteer',
     url: 'https://developers.google.com/web/tools/puppeteer',
-    icon: puppeteer
+    icon: puppeteer,
   },
   {
     name: 'Moment',
     url: 'https://momentjs.com/',
-    icon: moment
+    icon: moment,
   },
   { name: 'Webpack', url: 'https://webpack.js.org/', icon: webpack },
   { name: 'Docker', url: 'https://www.docker.com/', icon: docker },
   {
     name: 'GraphQL',
     url: 'https://graphql.org/',
-    icon: graphql
+    icon: graphql,
   },
   {
     name: 'Cheerio',
     url: 'https://cheerio.js.org/',
-    icon: cheerio
-  }
+    icon: cheerio,
+  },
 ]
 
 function Left() {
@@ -132,7 +131,7 @@ function Left() {
         paddingRight: 24,
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
       }}
     >
       {/* <div
@@ -160,15 +159,14 @@ function Left() {
         style={{
           lineHeight: 1.4,
           textAlign: 'justify',
-          textJustify: 'inter-word'
+          textJustify: 'inter-word',
         }}
       >
         <Title>Hello</Title>
         <div>
-          I love building applications and writing code! I find web technologies
-          exciting and enjoy learning new ones. My experience is with JavaScript
-          frameworks, and I strive to put my efforts toward ideas that can make
-          the world a better place.
+          I love building applications and writing code! I find web technologies exciting and enjoy learning new ones. My
+          experience is with JavaScript frameworks, and I strive to put my efforts toward ideas that can make the world a better
+          place.
         </div>
         {/* <div style={{ fontSize: 13 }}>
           I help provide solutions to business operations using technology.
@@ -194,7 +192,7 @@ function Left() {
                   color: '#363f49',
                   padding: 6,
                   paddingRight: 8,
-                  textDecoration: 'none'
+                  textDecoration: 'none',
                 }}
                 href={url}
               >
@@ -204,7 +202,7 @@ function Left() {
                   style={{
                     height: 'auto',
                     width: 16,
-                    marginRight: 6
+                    marginRight: 6,
                   }}
                 />
                 {data}
@@ -217,7 +215,7 @@ function Left() {
                   color: '#363f49',
                   padding: 6,
                   paddingRight: 8,
-                  textDecoration: 'none'
+                  textDecoration: 'none',
                 }}
               >
                 <img
@@ -226,7 +224,7 @@ function Left() {
                   style={{
                     height: 'auto',
                     width: 16,
-                    marginRight: 6
+                    marginRight: 6,
                   }}
                 />
                 {data}
@@ -253,7 +251,7 @@ function Left() {
                     padding: 4,
                     paddingRight: 8,
                     textDecoration: 'none',
-                    border: '1px solid #4c5867'
+                    border: '1px solid #4c5867',
                   }}
                 >
                   <img
@@ -263,11 +261,8 @@ function Left() {
                       height: 'auto',
                       width: 16,
                       marginRight: 6,
-                      borderRadius:
-                        icon === jwt || name === 'MongoDB' || name === 'Cheerio'
-                          ? '50%'
-                          : '',
-                      border: name === 'MongoDB' ? '1px solid #5555' : ''
+                      borderRadius: icon === jwt || name === 'MongoDB' || name === 'Cheerio' ? '50%' : '',
+                      border: name === 'MongoDB' ? '1px solid #5555' : '',
                     }}
                   />
                   {name}

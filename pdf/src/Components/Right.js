@@ -8,12 +8,12 @@ const experiences = [
     href: 'https://vonazon.com/',
     company: 'Vonazon',
     position: 'marketing automation specialist',
-    date: '2020 - Present',
+    date: '2020',
     data: [
-      'Build websites for clients using the HubSpot CMS.',
-      'Translate design and styling guidelines from the Graphics Design team to responsive web pages.',
-      'Generate custom Bootstrap themes built from the Sass source files using node-sass.',
-      'Create and update custom templates and modules in HubSpot using the Hubl templating language and Preact, a performant React alternative.',
+      'Built websites for clients using the HubSpot CMS.',
+      'Translated design and styling guidelines from the Graphics Design team to attractive, responsive web pages.',
+      'Generated custom Bootstrap themes built from the Sass source files using node-sass.',
+      'Created and updated custom templates and modules in HubSpot using the Hubl templating language and Preact, a performant React alternative.',
     ],
   },
   {
