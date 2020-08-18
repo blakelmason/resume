@@ -7,7 +7,7 @@ const experiences = [
     description: 'Full service digital sales and marketing agency',
     href: 'https://vonazon.com/',
     company: 'Vonazon',
-    position: 'marketing automation specialist',
+    position: 'Web Developer',
     date: '2020',
     data: [
       'Built websites for clients using the HubSpot CMS.',
