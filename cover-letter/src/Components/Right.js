@@ -17,19 +17,17 @@ function Right() {
       <div style={{}}>Hello!</div>
       <P>
         I am a software engineer who loves code. After college I thought I would do something with finance or business, but then
-        my older brother introduced me to JavaScript. This opened me up to the world of coding, and I dove in. That was three
+        my older brother introduced me to JavaScript. This opened me up to the world of coding, and I dove in. That was 
         years ago and my only regret is that I didn't find out about coding sooner! Since then I have eaten up every opportunity
-        I could find to learn more and work toward a professional career in with coding.
+        I could find to learn more and expand my coding career.
       </P>
       <P>
-        I am a software engineer who loves code. After college I thought I would do something with finance or business, but then
-        my older brother introduced me to JavaScript. This opened me up to the world of coding, and I dove in. It has been a log
-        time since I began coding, and my only regret is that I didn't find out about coding sooner! Since I began have eaten up
-        every opportunity I could find to learn more and work toward a professional career in with coding.
+        I am applying to this job with Homie because my strengths are with front-end development. I enjoy working across the full stack, but I am expecially fond of React, CSS, and Sass.
+        There is nothing more satisfying than making a design come to life in the browser and having it work flawlessly. My education and background are also in real estate, so working for Homie seems like
+        a perfect match for my skills and experience.
       </P>
       <P>
-        I believe that if I become a part of the dev team for The Church of Jesus Christ of Latter-day Saints, there will be no
-        doubt or regret in the decision to bring me on. My positive attitude, resourcefulness, and stubborn perseverance when
+        Whatever the responsibilities may be, I believe my positive attitude, resourcefulness, and stubborn perseverance when
         facing a challenge make me a productive contributor to any professional team.
       </P>
       <P>I hope to hear back from you soon!</P>
