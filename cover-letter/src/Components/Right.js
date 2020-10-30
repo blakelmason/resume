@@ -22,9 +22,9 @@ function Right() {
         I could find to learn more and expand my coding career.
       </P>
       <P>
-        I am applying to this job with Homie because my strengths are with front-end development. I enjoy working across the full stack, but I am expecially fond of React, CSS, and Sass.
-        There is nothing more satisfying than making a design come to life in the browser and having it work flawlessly. My education and background are also in real estate, so working for Homie seems like
-        a perfect match for my skills and experience.
+        I am applying to this job with Morgan Stanley because my strengths are a great fit. I enjoy working across the full stack, and I get to work to find a solution, no matter what the issue or challenge may be.
+        I'm looking for a team that is full of smart, hard-working, and empathetic people who build great things with modern tools. Working alongside other engineers is a joy to me, and
+        I love learning how to write better code while teaching others to do the same. Whatever the company, toolset, or framework, I can be counted on to provide a strong and lasting contribution.
       </P>
       <P>
         Whatever the responsibilities may be, I believe my positive attitude, resourcefulness, and stubborn perseverance when
