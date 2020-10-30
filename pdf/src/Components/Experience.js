@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience({ company, position, date, data, description, href, i }) {
   return (
-    <div style={{ display: 'flex', marginBottom: i === 0 || i === 1 ? 32 : 0 }}>
+    <div style={{ display: 'flex', marginBottom: i === 0 || i === 1 ? 24 : 0 }}>
       <div
         style={{
           fontSize: 28,
