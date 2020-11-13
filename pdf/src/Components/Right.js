@@ -4,17 +4,18 @@ import Experience from './Experience'
 
 const experiences = [
   {
-    description: 'Full service digital sales and marketing agency',
+    description: 'Online small business loan marketplace.',
     href: 'https://lendio.com/',
     company: 'Lendio',
     position: 'Software Engineer',
     date: '2020',
     data: [
-      `Build UI components and pages for Lendio website and applications.`
+      `Build UI components and pages for Lendio website and applications. Manage Wordpress templates and styles for public facing website. Work with UX designers and Marketing team
+      to meet business goals for customer acquisition.`
     ],
   },
   {
-    description: 'Full service digital sales and marketing agency',
+    description: 'Full service digital sales and marketing agency.',
     href: 'https://vonazon.com/',
     company: 'Vonazon',
     position: 'Web Developer',
@@ -35,7 +36,7 @@ const experiences = [
       `Wrote code to automate business operations such as order entry, invoicing, reporting, and generating work order bill of materials.
       Helped troubleshoot any IT problems for the office and warehouse.`
     ],
-    description: 'Steel wheel assembly and tire distribution',
+    description: 'Steel wheel assembly and tire distribution.',
   },
 ]
 
@@ -51,7 +52,7 @@ const educations = [
       Split the proxy, services, and database to individual EC2 instances and configured a load balancer using NGINX.`
     ],
     description:
-      'An advanced coding bootcamp focused on building autonomous software engineers ready for any job in the tech industry',
+      'An advanced coding bootcamp focused on building autonomous software engineers ready for any job in the tech industry.',
   },
   {
     href: 'https://bootcamp.ce.uci.edu/coding/',
@@ -61,7 +62,7 @@ const educations = [
     data: [
       'Completed complex projects and received hands-on programming training through experiential learning opportunities.',
     ],
-    description: 'A web development program that teaches the key skills for full stack development',
+    description: 'A web development program that teaches the key skills for full stack development.',
   },
   {
     href: 'https://www.byu.edu/',

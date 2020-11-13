@@ -47,7 +47,7 @@ function Experience({ company, position, date, data, description, href, i }) {
               fontStyle: 'italic',
               color: '#6c757d',
               fontSize: 12,
-              marginBottom: 14,
+              marginBottom: 4,
             }}
           >
             {description}
