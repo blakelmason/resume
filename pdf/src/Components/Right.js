@@ -9,10 +9,6 @@ const experiences = [
     company: 'Lendio',
     position: 'Software Engineer',
     date: '2020',
-    data: [
-      `Build UI components and pages for Lendio website and applications. Manage Wordpress templates and styles for public facing website. Work with UX designers and Marketing team
-      to meet business goals for customer acquisition.`
-    ],
   },
   {
     description: 'Full service digital sales and marketing agency.',
@@ -21,10 +17,7 @@ const experiences = [
     position: 'Web Developer',
     date: '2020',
     data: [
-      `Built websites for clients using the HubSpot CMS.
-      Translated design and styling guidelines from the Graphics Design team to attractive, responsive web pages.
-      Generated custom Bootstrap themes built from the Sass source files using node-sass.
-      Created and updated custom templates and modules in HubSpot using the Hubl templating language and Preact, a performant React alternative.`
+      `Built websites for clients using the HubSpot CMS. Created and updated custom templates and modules in HubSpot using the Hubl templating language and Preact, a performant React alternative. Translated design and styling guidelines from the Graphics Design team into attractive, responsive web pages using custom Bootstrap themes.`
     ],
   },
   {
@@ -33,8 +26,7 @@ const experiences = [
     position: 'software engineer',
     date: '2017 - 2019',
     data: [
-      `Wrote code to automate business operations such as order entry, invoicing, reporting, and generating work order bill of materials.
-      Helped troubleshoot any IT problems for the office and warehouse.`
+      `Wrote code to automate business operations such as order entry, invoicing, reporting, and generating work order bill of materials. Built simple web applications using JavaScript tools, technologies and frameworks such as React, NodeJS, and Express. Helped troubleshoot any IT problems for the office and warehouse.`
     ],
     description: 'Steel wheel assembly and tire distribution.',
   },
