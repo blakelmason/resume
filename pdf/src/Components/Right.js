@@ -9,6 +9,7 @@ const experiences = [
     company: 'Lendio',
     position: 'Software Engineer',
     date: '2020',
+    data: []
   },
   {
     description: 'Full service digital sales and marketing agency.',
