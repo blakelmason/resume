@@ -36,8 +36,6 @@ a {
 .job-description {
   font-size: 12px;
   line-height: 1.25;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .position {

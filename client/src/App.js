@@ -222,8 +222,8 @@ function App() {
   return (
     <div
       style={{
-        height: 1154,
-        width: '8.5in',
+        height: 1200,
+        width: 850,
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -254,7 +254,7 @@ function App() {
             borderBottom: '1px solid white',
             width: 375,
             position: 'absolute',
-            top: 61,
+            top: 63,
           }}
         />
         <div
@@ -357,7 +357,7 @@ function Section({ items, title }) {
   return (
     <div>
       <h1>{title}</h1>
-      <div style={{ display: 'grid', gap: 16 }}>
+      <div style={{ display: 'grid', gap: 24 }}>
         {items.map((item, i) => (
           <Item {...item} key={`${title}-item-${i}`} />
         ))}
