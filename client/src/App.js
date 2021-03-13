@@ -123,14 +123,14 @@ const skills = [
 
 const experience = [
   {
-    description: 'State of the art online card editor',
+    description: 'State of the art online card editor.',
     href: 'https://www.sendoutcards.com/app',
     company: 'SendOutCards',
     position: 'Software Engineer',
     date: '2021 - Current',
     data: (
       <>
-        Support card building front end application and new product websites.
+        Support card-building front end application and new product websites.
         Work with UI/UX to build React components to match Framer designs. Front
         end technologies include React, Redux, TypeScript, and GraphQL with a
         Python/Django backend.
@@ -145,7 +145,7 @@ const experience = [
     date: '2020 - 2021',
     data: (
       <>
-        Worked on public facing applications. Coordinated closely with UI/UX to
+        Worked on public-facing applications. Coordinated closely with UI/UX to
         build and refine pages and components.
       </>
     ),
@@ -213,7 +213,7 @@ const education = [
     href: 'https://www.byu.edu/',
     company: 'Brigham Young University, Utah',
     position: "Bachelor's Degree - Business Management",
-    date: '2017',
+    date: '2016',
     data: [],
   },
 ]
